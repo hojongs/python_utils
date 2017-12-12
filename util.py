@@ -18,6 +18,4 @@ def random_list(n=10):
     return result
 
 def swap(arr, a, b):
-    temp = arr[a]
-    arr[a] = arr[b]
-    arr[b] = temp
+    arr[a], arr[b] = arr[b], arr[a]
